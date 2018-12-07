@@ -1,4 +1,4 @@
-# Node.js wrapper for retrieving images from the NASA API for the InSight Lander
+# Node.js wrapper for the NASA InSight Lander images API
 
 ## Authentication
 
