@@ -1,5 +1,9 @@
 # Node.js wrapper for the NASA InSight Lander images API
 
+## Installation
+
+```npm install nasa-insight-api --save```
+
 ## Authentication
 
 Sign up for a NASA developer API Key [here](https://api.nasa.gov/api.html#authentication). Create a new instance of the client library with:
