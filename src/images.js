@@ -6,7 +6,6 @@ class Images {
      * @method
      * @param {object} options 
      * @param {function} cb 
-     * @returns {JSON}
      */
 	get(options = {}, cb) {
 		return this.client._request(options, cb);
@@ -19,7 +18,6 @@ class Images {
      * @param {number} per_page Default 50
      * @param {number} page Default 0
      * @param {function} cb
-     * @returns {JSON}
 	 */
 	getBy(solStart, solEnd, cameras, per_page = 50, page = 0, cb) {
 		this.solStart = solStart ? `${solStart}:sol:gte` : '';
