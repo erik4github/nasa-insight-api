@@ -21,6 +21,11 @@ class Insight {
      */
 	_request(params, cb = () => {}) {
 
+		Object.defineProperty(params, 'API_KEY', {
+			'value': this.apiKey,
+			enumerable: true
+		});
+
 		const options = {
 			url: 'https://mars.nasa.gov/api/v1/raw_image_items/',
 			method: 'GET',
