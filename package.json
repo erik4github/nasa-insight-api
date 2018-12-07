@@ -10,6 +10,10 @@
     "name": "Erik Bleske",
     "url": "https://github.com/erik4github"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/erik4github/nasa-insight-api"
+  },
   "license": "MIT",
   "dependencies": {
     "request": "^2.88.0"
